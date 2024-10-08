@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: theme("colors.primary");
+  color: theme("colors.light");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: theme("colors.accent");
+}
+
+a {
+  color: theme("colors.secondary");
+}
+
+a:hover {
+  color: theme("colors.accent");
+}
